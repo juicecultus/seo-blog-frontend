@@ -1,6 +1,7 @@
+import Header from './Header';
 const Layout = props => (
   <>
-    <p>header</p>
+    <Header />
     {props.children}
     <p>footer</p>
   </>
