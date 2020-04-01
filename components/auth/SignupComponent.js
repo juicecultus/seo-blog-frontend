@@ -2,9 +2,9 @@ import { useState } from 'react';
 
 const SignupComponent = () => {
   const [values, setValues] = useState({
-    name: '',
-    email: '',
-    password: '',
+    name: 'Jus',
+    email: 'jus@me.com',
+    password: 'abcdef',
     error: '',
     loading: false,
     message: '',
